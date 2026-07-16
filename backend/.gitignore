@@ -1,0 +1,30 @@
+# ─── DO NOT COMMIT THIS FILE ─────────────────────────────────────
+# Copy .env.example to .env.local and fill in real values.
+.env.local
+.env.*.local
+.env
+
+# Model weights — download via scripts/export_model.py
+models/*.onnx
+models/*.pt
+models/*.bin
+
+# Next.js
+.next/
+out/
+build/
+
+# Dependencies
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
